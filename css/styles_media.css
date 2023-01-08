@@ -1,0 +1,48 @@
+/* ======================@media======================== */
+/* @media screen and (max-width: 769px) {
+    .block-menu {
+        height: 120px;
+    }
+} */
+@media screen and (max-width: 991px) {
+    #navbarToggler ul li a {
+        line-height: 20px;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .top-right {
+        text-align-last: left;
+        margin-top: -5px;
+    }
+    .main-banner .caption h6 {
+        font-weight: 500;
+      }
+}
+@media screen and (max-width: 440px) {
+    .main-banner .caption h1 {
+        font-size: 40px;
+        font-weight: 500;
+      }
+      .main-banner .caption h4 {
+        font-size: 14px;
+      }
+      .main-banner .caption h6 {
+        font-size: 12px;
+      }
+}
+@media screen and (max-width: 405px) {
+    .col_btn_red {
+        margin-top: -30px;
+    }
+}
+@media screen and (max-width: 337px) {
+    .col_btn_red {
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .top-header {
+        display: none;
+    }
+}

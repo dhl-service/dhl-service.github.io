@@ -1,0 +1,407 @@
+
+<!doctype html>
+<html lang="en-ru">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="logo/logo2.ico">
+	<title>DHL Express</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet' type='text/css'>
+	<script src="https://kit.fontawesome.com/2eb0c695c0.js" crossorigin="anonymous"></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles_media.css">
+	
+</head>
+<body>
+<!--==============top header============-->
+<div class="block top-header">
+	<div class="container">
+		<div class="row" >
+			<div class="col-md-6 top-left">
+				<span>                     
+					<select id="lang" > 
+					<option value="English">English  </option>
+					<option value="Russian">Русский  </option> 
+					</select> 
+				  </span>
+			</div>
+			<div class="col-md-6 top-right">
+				<span>
+					<a href="tel: +441415523000" class="top-header_phone"><i class="fa fa-users" aria-hidden="true" ></i>&nbsp; Contact center </a>&ensp; &emsp; 
+                    
+					<select id="company" > 
+					<option value="Company profile">Company profile  </option>
+					<option value="something else">Что-то еще  </option> 
+					</select> 
+				</span>
+			</div>
+		</div>
+	</div>	
+</div>
+<!-- =============menu navbar============ -->
+<div class="block-menu">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-#ffcc00">
+			<div class="container-fluid p-0">
+			  <!-- <a class="navbar-brand" href="#">Панель навигации</a> -->
+			  <a class="navbar-brand" href="#"> <img src="logo/logo_max.png" alt="logo"> </a>
+
+			  <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggle" aria-expanded="false" aria-label="Переключатель навигации">
+				<span class="navbar-toggler-icon custom-toggler"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto"  >
+					<li class="nav-item">
+						<a class="nav-link" href="#">EXPRESS</a> 
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">PARCEL&ECOMMERCE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">LOGISTICS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">MAIL</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">PRESS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">ABOUT</a>
+					</li> 
+				</ul>
+
+				<a href="#"><div class="round" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></div></a>
+
+
+					<!-- Модальное окно -->
+					<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+							<h5 class="modal-title" id="searchModalLabel">Enter the search text</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+							</div>
+							<div class="modal-body">
+							<input type="text" placeholder="Search here">
+							</div>
+							<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="submit" class="btn btn-danger btn-search" >Search</button>
+							</div>
+						</div>
+						</div>
+  					</div>
+			  </div>
+			</div>
+		  </nav>
+	</div>
+</div>	
+
+<!-- ===========heroes============ -->
+<section class="section main-banner" id="top" data-section="section1">
+	<img src="img/we_deliver.jpg" alt="img_cover" id="bg_img">
+	<div class="img-overlay header-text">
+		<div class="container container-fluid">
+		  <div class="row">
+			<div class="col-md-12">
+			  <div class="caption">
+                <h1><b>We Deliver<br> With Speed</b></h1>
+
+			<img src="img/line_49.png" alt="line">
+
+			<h6>When an unknown printer took a galley of type and scrambled <br>
+				it to make a type specimen book. It has survived not only five centuries</h6>
+
+			<h4><p>AMAZING &ensp;<span style="color: #ffcc00">.</span>&ensp; QUICK &ensp; <span style="color: #ffcc00">.</span>&ensp; 24/7SUPPORTS</p></h4>
+
+			<a class="btn btn-yellow" href="#" type="button">LEARN MORE</a> &ensp; &ensp; 
+			<a class="btn btn-transparent" href="#" type="button">DHL WORLDWIDE</a>
+		</div>
+	</div>
+</section>
+
+<!-- ==========card1========== -->
+<div class="section card1">
+	<div class="container">
+		<h5>Awesome Services</h5>
+		<div class="row">
+
+			<div class="card col-md-3 mt-5" >
+
+				<img src="img/card1.png" class="card-img-top" alt="card1">
+				<div class="card-body">
+					<h4 class="card-title">Express Services</h4>
+					<p class="card-text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					<a href="#" id="triangle">Read More <span style="color: #ba0000">&#9205;</span></a>
+				</div>
+			</div>
+
+			<div class="card col-md-3 mt-5" >
+				<img src="img/card2.png" class="card-img-top" alt="card2">
+				<div class="card-body">
+					<h4 class="card-title">parcel & ecommerce</h4>
+					<p class="card-text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					<a href="#" id="triangle">Read More <span style="color: #ba0000">&#9205;</span></a>
+				</div>
+			</div>
+
+			<div class="card col-md-3 mt-5" >
+				<img src="img/card3.png" class="card-img-top" alt="card3">
+				<div class="card-body">
+					<h4 class="card-title">frieght transport</h4>
+					<p class="card-text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					<a href="#" id="triangle">Read More <span style="color: #ba0000">&#9205;</span></a>
+				</div>
+			</div>
+
+			<div class="card-red col-md-3 mt-5" >
+				<div class="card-body-red">
+					<div class="container">
+						<h6>DHl Worldwide</h6>
+						<img src="img/line_49.png" alt="line">
+						<p>When an unknown prot printer type and scra</p>
+							<select name="red-elloy" id="select-red-elloy">&ensp;
+								<option value="">location</option>
+								<option value="">point2</option>
+								<option value="">pont3</option>
+							</select>
+							<a class="btn btn-yellow" href="#" type="button">EXPLORE</a> 
+					</div>
+				</div>
+			</div>			
+		</div>
+
+	</div>	
+</div>
+<!-- ====================video=================== -->
+
+<section class="section banner mt-5" id="top" data-section="section1">
+	<video autoplay muted loop id="bg-video">
+		<source src="img/sort_center.mp4" type="video/mp4" />
+	</video>
+ 	<div class="video-overlay header-text">
+		<div class="container">
+		  	<div class="row">
+				<div class="col-lg-12">
+			  	<div class="caption">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ===================card2================= -->
+
+<div class="section card2">
+	<div class="container">
+		<div class="row">
+
+			<div class="card2-item col-md-4 mt-5" >
+				<img src="img/card4.jpg" class="card-img" alt="card4">
+				<div class="card-body">
+					<h4 class="card-title">Aerospace Provider</h4>
+					<ul>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>When an unknown printer took.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>Make a type specimen book.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>It has survived.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>Airlines unknown specimen.</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card2-item col-md-4 mt-5" >
+				<img src="img/card5.jpg" class="card-img" alt="card5">
+				<div class="card-body">
+					<h4 class="card-title">Poppins Proved</h4>
+					<ul>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>When an unknown printer took.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>Make a type specimen book.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>It has survived.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>Airlines unknown specimen.</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card2-item col-md-4 mt-5" >
+				<img src="img/card6.jpg" class="card-img" alt="card6">
+				<div class="card-body">
+					<h4 class="card-title">Airline Specimen</h4>
+					<ul>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>When an unknown printer took.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>Make a type specimen book.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>It has survived.</li>
+						<li class="card-text"><span style="color: #ffcc00">&#9205;</span>Airlines unknown specimen.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>			
+<!-- =================logistics================= -->
+<div class="logistics">
+	<div class="container">
+		<div class="row">
+			<div class="rect1 col-md-6 ">
+				<div class="container contleft1">
+					<div class="row"> 
+						<div class="col" id="expr" >EXPRESS</div>
+						<div class="col" id="log" >LOGISTICS</div>
+					</div>
+				</div>
+				<div class="wrapper mx-auto mt-4">
+					<select class="select-white">&ensp;
+						<option value="">Track your shipment</option>
+						<option value="">point2</option>
+						<option value="">pont3</option>
+					</select>
+					<select class="select-white">&ensp;
+						<option value="">New login</option>
+						<option value="">point2</option>
+						<option value="">pont3</option>
+					</select>
+					<select class="select-white">&ensp;
+						<option value="">Find Dhl point</option>
+						<option value="">point2</option>
+						<option value="">pont3</option>
+					</select>
+				</div>
+				<div class="rect-yellow mx-auto">
+					<select class="select-yellow">&ensp;
+						<option value="">Find Dhl point</option>
+						<option value="">point2</option>
+						<option value="">pont3</option>
+					</select>
+					<div class="title_bottom mt-3">
+						<h5>International Services to Another Country</h5>
+						<ul>
+							<li class="card-text"><span style="color: #ffcc00">&#9205;</span>&ensp;Emergency</li>
+							<li class="card-text"><span style="color: #ffcc00">&#9205;</span>&ensp;Time Critical</li>
+							<li class="card-text"><span style="color: #ffcc00">&#9205;</span>&ensp;Less Urgent</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="rect2 col-md-6">
+				<img src="img/sportsmens2.png" class="img" alt="img_sport">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ===========block excellence======== -->
+<section class="excellence">
+	<div class="container">
+		<div class="title">
+			<br><br><br>
+			<h2>EXCELLENCE. SIMPLY DEVIVERED</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-10">
+				<div class="excel_descript">
+					International express deliveries; global freight forwarding by air, sea, road and rail;<br>
+					warehousing solutions from packaging, to repairs, to storage; mail deliveries worldwide;<br>
+					and other customized logistic services – with everything DHL does, we<br>
+					help connect people and improve their lives.
+				</div>
+			</div>
+			<div class="col-md-2 col_btn_red">
+				<a class="btn btn-red" href="#" type="button">LEARN MORE</a>
+			</div>
+		</div>
+	</div>
+
+</section>
+<!-- ==================logos================= -->
+<section class="logos  mt-5 mb-5">
+	<div class="container px-4">
+		<div class="row gx-5">
+		  <div class="col">
+		   <div class="bg-light "><div class="wrapper"><img src="logo/logo1.png" alt="logo1"></div></div>
+		  </div>
+		  <div class="col">
+			<div class="bbg-light "><div class="wrapper"><img src="logo/logo1.png" alt="logo1"></div></div>
+		  </div>
+		  <div class="col">
+			<div class="bg-light "><div class="wrapper"><img src="logo/logo1.png" alt="logo1"></div></div>
+		  </div>
+		  <div class="col">
+			<div class="bg-light "><div class="wrapper"><img src="logo/logo1.png" alt="logo1"></div></div>
+		  </div>
+		</div>
+	  </div>
+	<!-- <div class="container">
+		<div class="row">
+			<div class="col-md-3 mt-5" id="logo1"><div class="wrapper"><img src="logo/logo1.png" alt="logo1"></div></div>
+			<div class="col-md-3 mt-5" id="logo1"><div class="wrapper"><img src="logo/logo2.png" alt="logo2"></div></div>
+			<div class="col-md-3 mt-5" id="logo1"><div class="wrapper"><img src="logo/logo3.png" alt="logo3"></div></div>
+			<div class="col-md-3 mt-5" id="logo1"><div class="wrapper"><img src="logo/logo4.png" alt="logo4"></div></div>
+
+		</div>
+	</div> -->
+</section>
+
+<!-- ========================footer========================= -->
+<section class="footer mt-4">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col p-0">
+				<img src="img/down_left.png" class="img-fluid" alt="img_down_left">
+			</div>	
+			<div class="col p-0" id="footer_col">
+				<div class="footer_title mt-4"><b>CONTACT CENTER</b></div>
+				<div class="footer_list1">
+					<ul>
+						<li><span style="color: #ba0000">&#9205;</span>DHL EXPRESS</li>
+						<li><span style="color: #ba0000">&#9205;</span>DHL PARCE&COMMERCE</li>
+						<li><span style="color: #ba0000">&#9205;</span>DHL GLOBAL FORWARDING</li>
+						<li><span style="color: #ba0000">&#9205;</span>DHL FREGHT</li>
+						<li><span style="color: #ba0000">&#9205;</span>DHL SUPPLY CHAIN</li>
+					</ul> 
+				</div>
+			</div> 
+			<div class="col p-0" id="footer_col">
+				<div class="footer_title mt-4">ABOUT IS</div>
+				<div class="footer_list2">
+					<ul>
+						<li><span style="color: #ba0000">&#9205;</span>PARTNERHIPS</li>
+						<li><span style="color: #ba0000">&#9205;</span>COMPANY PORTRAIT</li>
+						<li><span style="color: #ba0000">&#9205;</span>DHL GLOBAL FORWARDING</li>
+						<li><span style="color: #ba0000">&#9205;</span>GREEN SOLUTIONS</li>
+						<li><span style="color: #ba0000">&#9205;</span>INNOVATION</li>
+					</ul>
+				</div> 
+			</div>
+			<div class="col p-0" id="footer_col">
+				<div class="footer_title mt-4">SOCIAL MEDIA</div>
+				<div class="footer_list3">
+					<ul>
+						<li id="right1"><span style="color: #ba0000">&#9205;</span>FACEBOOK</li>
+						<li ><span style="color: #ba0000">&#9205;</span>DRIBBBLE</li>
+						<li><span style="color: #ba0000">&#9205;</span>BEHANCE</li>
+						<li><span style="color: #ba0000">&#9205;</span>GMAIL</li>
+						<li><span style="color: #ba0000">&#9205;</span>TWITTER</li>
+					</ul>
+				</div> 
+			</div>
+			<div class="col p-0">
+				<img src="img/down_right.png" class="img-fluid" alt="img_down_right">
+			</div>
+		</div>
+
+	</div>
+</section>
+<div class="copyright">
+	Copyright Bikbulatov Valery ©️ 2022. All right reserved.
+</div>	
+<!-- ============================================= -->
+
+	 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
